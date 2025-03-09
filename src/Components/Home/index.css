@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Home Component */
+.home {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Task Card */
+.task-card h1 {
+    color: #1e293b;
+    font-size: 22px;
+    margin-bottom: 15px;
+
+    
+}
+h1{
+    text-align: center;
+}
+
+/* Input and Button */
+.input {
+    width: 80%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #64748b;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #4656a1;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: none;
+}
+
+/* Task List */
+.tasks {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+
+/* Task Text */
+.task {
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+/* Delete Button */
+button.delete {
+    background-color: #dc2626;
+}
+
+button.delete:hover {
+    background-color: #b91c1c;
+}
+
+
+.addbtn{
+    background-color: none;
+}
+
+.inputfeild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

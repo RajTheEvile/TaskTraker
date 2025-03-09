@@ -1,0 +1,18 @@
+.taskelement{
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskh{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status{
+    background-color: white;
+}
+
+.deletebtn{
+    background-color: white;
+}
